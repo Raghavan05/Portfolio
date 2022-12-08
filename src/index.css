@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif 'poppins';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.myimg{
+  width: 20vh;
+  height: 25vh;
+  background-color: #aaa;
+}
+#heading{
+  background-color: black;
+  color: white;
+}
+.heading{
+  background-color: black;
+  color: white;
+}
+#footer{
+  background-color: black;
+  color: white;
+}
+/* .nav-item{
+  padding: 1%;
+} */
+.nav-link:hover{
+  font-weight: bolder;
+  color: black !important;
+  background-color: #ffffffff !important;
+}
+@media only screen and (max-width : 1000px){
+  .myname{
+    font-size: 3vw;
+  }  
+  .myoccuption{
+    font-size: 2.5vw;
+  }
+  #navigation {
+    font-size: 2vw;
+  }
+  .myskills{
+    font-size: 2.5vw;
+  }
+  .skills{
+    font-size: 2.25vw;
+  }
+  th{
+    font-size: 2vw;
+  }
+  td{
+    font-size: 1.5vw;
+  }
+  #footer{
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width:840px) {
+  .myname{
+    font-size: 3.5vw;
+  }
+  .myoccuption{
+    font-size: 3vw;
+  }
+  #navigation{
+    font-size: 2.5vw;
+  }
+  .myskills{
+    font-size: 2.5vw;
+  }
+  .skills{
+    font-size: 2.25vw;
+  }
+  th{
+    font-size: 2vw;
+  }
+  td{
+    font-size: 1.75vw;
+  }
+  #footer{
+    font-size: 3.5vw;
+  }
+}
+
+@media only screen and (max-width:640px) {
+  .myname{
+    font-size: 3.75vw;
+  }
+  #navigation{
+    font-size: 2.75vw;
+  }
+  .myskills{
+    font-size: 3vw;
+  }
+  .skills{
+    font-size: 2.75vw;
+  }
+  th{
+    font-size: 2.75vw;
+  }
+  td{
+    font-size: 2.25vw;
+  }
+  #footer{
+    font-size: 2.75vw;
+  }
+}
+
+@media only screen and (max-width:575px) {
+  .myname{
+    font-size: 5.5vw;
+  }
+  .myoccuption{
+    font-size: 4.5vw;
+  }
+  #navigation{
+    font-size: 3.75vw;
+  }
+  .myskills{
+    font-size: 5.5vw;
+  }
+  .skills{
+    font-size: 4.5vw;
+  }
+  th{
+    font-size: 3.5vw;
+  }
+  td{
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width:320px) {
+  .myname{
+    font-size: 4.5vw;
+  }
+  .myoccuption{
+    font-size: 4vw;
+  }
+  #navigation{
+    font-size: 3.5vw;
+  }
+  .myskills{
+    font-size: 4.5vw;
+  }
+  .skills{
+    font-size: 4vw;
+  }
+  th{
+    font-size: 3vw;
+  }
+  td{
+    font-size: 2.5vw;
+  }
+  #footer{
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (max-width:300px) {
+  .myname{
+    font-size: 4vw;
+  }
+  .myoccuption{
+    font-size: 3.25vw;
+  }
+  #navigation{
+    font-size: 3.25vw;
+  }
+  .myskills{
+    font-size: 4vw;
+  }
+  .skills{
+    font-size: 3.5vw;
+  }
+  th{
+    font-size: 2.5vw;
+  }
+  td{
+    font-size: 2vw;
+  }
+  #footer{
+    font-size: 2vw;
+  } 
+}

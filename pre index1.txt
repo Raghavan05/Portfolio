@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Web project</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- Bootstrap core CSS -->
+<!-- <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="navbar-top-fixed.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container">  
+    <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active nav-opp" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-opp" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-opp" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div id="myCarousel" class="carousel slide"data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/apple.jpg" class="cimg" alt="jpg">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Example headline.</h1>
+            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/apple1.jpg" class="cimg"  alt="jpg">
+       <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/apple2.jpg" class="cimg" alt="jpg">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>One more for good measure.</h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  	<div class="container">
+  		<div class="abt-heading" id="about">
+  			<p>About us</p> 
+  		</div>
+	  	<div class="row mb-3">
+	      <div class="col-12 col-md-8 coledt">
+	      	<img src="img/apple_products.jpg" alt="jpg">
+	      </div>
+	      <div class="col-12 col-md-4 coledt1">
+	      	<h1>Our products information</h1>
+	      	<p> <b> ‡You can receive Promotion Savings when you purchase <br> any iPhone 12 (15.40 cm, 1 N) or iPhone 12 mini (13.76 cm, 1 N) with a pair of AirPods with Charging Case, AirPods with Wireless Charging Case or AirPods Pro. Promotion Savings will be based on the combined value of invoice(s). Maximum of two (2) Promotion Products per purchaser. Product(s) may ship separately. During peak season or shortage of stock supply, there may be a delay in delivery of product(s). This offer cannot be combined with education pricing. Limited stock available, while supplies last and subject to terms and conditions herein.</b></p>
+	      </div>
+	    </div>  
+  		<div class="con-heading" id="contact">
+  			<p>Contact us</p>
+  		</div>
+	    <div class="row mb-3">
+	      <div class="col-md-5 themed-grid-col coledt"> <h4 class="h4-txt">MR.R.RAGAVAN</h4>
+	      	<h3>SRS BTL Advertising</h3>
+	      	<p>No - 20/23 ,Periyavar narayanan street, <br> sakthi velammal nagar, <br> S S Colany,Madurai - 625 016, <br> Tamilnadu,India.</p>
+	      	<p>Phone:+91 9597468263 <br> Mobile:+91 9345890692 </p>
+	      </div>
+	      <div class="col-md-7 themed-grid-col coledt1"><form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4" required>
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4" required>
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+  </div>
+  <!-- <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div> -->
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity" required>
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>Tamilnadu</option>
+      <option>Kerala</option>
+      <option>Andhra pradesh</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form></div>
+  	</div>
+
+  </div>
+  <div class="footer foot">
+  	<p> <b> © 2021 SRS BTL Advertising . All rights reserved.<br>
+Design by <u> <b>R.Raghavan</b></u></b></p>
+  	
+  </div>
+	
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

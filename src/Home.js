@@ -72,7 +72,7 @@ class Home extends React.Component{
                                 <br/>
                                 <ul className="skills">
                                     <li>
-                                        I done Ful Stack development.
+                                        I done Full Stack development.
                                     </li>
                                     <li>
                                         I done in UI/UX Design.
@@ -80,12 +80,9 @@ class Home extends React.Component{
                                     <li>
                                         I done Digital Marketing in <a href="https://www.edureka.co/">Edureka</a>
                                     </li>
-                                    <li>
-                                        I done in android development.
-                                    </li>
-                                    <li>
+                                    {/* <li>
                                         I done in Product Management.
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                             <div className="col-sm-12">
@@ -142,13 +139,13 @@ class Home extends React.Component{
                                             <td>98%</td>
                                         </tr>
                                         <tr>
-                                            <td>12th</td>
+                                            <td>HSC</td>
                                             <td>TVK Corp hr sec school</td>
                                             <td>2020</td>
                                             <td>50.67%</td>
                                         </tr>
                                         <tr>
-                                            <td>10th</td>
+                                            <td>SSLC</td>
                                             <td>TVK Corp hr sec school</td>
                                             <td>2018</td>
                                             <td>72.4%</td>

@@ -17,7 +17,7 @@ function Routingpage () {
     return(
       <BrowserRouter>
       <Routes>
-      <Route exact path = "/Portfolio" element = {<Home/>}/>
+      <Route exact path = "/" element = {<Home/>}/>
       <Route path = "/Contact" element = {<Contact/>}/>
       <Route path = "/About" element = {<About/>}/>
       </Routes>

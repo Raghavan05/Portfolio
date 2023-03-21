@@ -15,11 +15,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function Routingpage () {
     return(
-      <BrowserRouter>
+      <BrowserRouter basename='/Portfolio'>
       <Routes>
-      <Route exact path = "/" element = {<Home/>}/>
-      <Route path = "/Contact" element = {<Contact/>}/>
-      <Route path = "/About" element = {<About/>}/>
+      <Route exact path = "/" element = {<Home/>}></Route>
+      <Route path = "/Contact" element = {<Contact/>}></Route>
+      <Route path = "/About" element = {<About/>}></Route>
       </Routes>
       </BrowserRouter>
     );

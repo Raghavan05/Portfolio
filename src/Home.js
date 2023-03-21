@@ -13,7 +13,7 @@ class Home extends React.Component{
                 <div className="heading">
                     <div className="bg-c1 text-center" id = "heading">
                         <h1 className="myname" style={{color:"white"}}>Raghavan</h1>
-                        <p className="myoccpation" style={{color:"white"}}>Full Stack Developer</p>
+                        <p className="myoccpation" style={{color:"white"}}>Full Stack Developer (MERN)</p>
                         <ul className="nav nav-pills bottom-bar nav-justified" id="navigation">
                             <li className="nav-item">
                             <a className="nav-link active" href="/">Home</a>

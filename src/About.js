@@ -11,7 +11,7 @@ class About extends React.Component{
             <body>
                 <div className="heading">
                     <div className="bg-c1 text-center" id = "heading">
-                        <h1 className="myname">Fullstack web development</h1>
+                        <h1 className="myname">Fullstack web development  (MERN)</h1>
                         <p className="myoccupation">Projects</p>
                         <ul className="nav nav-pills nav-justified" id="navigation">
                             <li className="nav-item nav-color">

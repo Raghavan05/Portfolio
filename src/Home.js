@@ -58,7 +58,7 @@ class Home extends React.Component{
                                         Frontend languages - HTML, CSS, Javascript, Bootstrap, React
                                     </li>
                                     <li>
-                                        Backend languages - Java, Node js
+                                        Backend languages - Node js
                                     </li>
                                     <li>
                                         Database - Mysql, MongoDB
@@ -183,7 +183,7 @@ class Home extends React.Component{
                             </li>
                         </ul>
                         <br/>
-                        <p style={{color : 'white'}}> <b> &copy; 2022 SRS BTL Advertising . All rights reserved.<br/>
+                        <p style={{color : 'white'}}> <b> &copy; All rights reserved.<br/>
                                 Design by <u><b>Raghavan R</b></u></b></p>
                     </div>
                 </div>

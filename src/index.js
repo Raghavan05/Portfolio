@@ -1,5 +1,5 @@
  /* eslint-disable no-unused-vars */
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './style.css';
@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function Routingpage () {
     return(
-      <BrowserRouter basename='/Portfolio'>
+      <BrowserRouter basename='/'>
       <Routes>
       <Route exact path = "/" element = {<Home/>}></Route>
       <Route path = "/Contact" element = {<Contact/>}></Route>
@@ -24,8 +24,6 @@ function Routingpage () {
       </BrowserRouter>
     );
 }
-
-
 root.render(
   <React.StrictMode>
     <Routingpage />
@@ -35,4 +33,4 @@ root.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+reportWebVitals(console.log);

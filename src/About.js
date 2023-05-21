@@ -157,7 +157,7 @@ class About extends React.Component{
                             </li>
                         </ul>
                         <br/>
-                        <p style={{color : 'white'}}> <b> &copy; 2022 SRS BTL Advertising . All rights reserved.<br/>
+                        <p style={{color : 'white'}}> <b> &copy; All rights reserved.<br/>
                                 Design by <u><b>Raghavan R</b></u></b></p>
                     </div>
                 </div>

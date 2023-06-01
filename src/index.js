@@ -4,26 +4,27 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './style.css';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Contact from './Contact';
 import Home from './Home';
 import About from './About';
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 function Routingpage () {
     return(
-      <BrowserRouter basename='/'>
+      <Router basename='/'>
       <Routes>
       <Route exact path = "/" element = {<Home/>}></Route>
       <Route path = "/Contact" element = {<Contact/>}></Route>
       <Route path = "/About" element = {<About/>}></Route>
       </Routes>
-      </BrowserRouter>
+      </Router>
     );
 }
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Routingpage />

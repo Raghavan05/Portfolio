@@ -4,6 +4,7 @@ import './index.css';
 import {} from 'react-bootstrap';
 import {FaInstagram,FaYoutube,FaTwitter,FaGithub} from "react-icons/fa";
 import logo from './img/Ragav_01.JPG';
+import { NavLink } from "react-router-dom";
 // import  ReactDOM  from "react-dom/client";
 
 class Home extends React.Component{
@@ -16,13 +17,13 @@ class Home extends React.Component{
                         <p className="myoccpation" style={{color:"white"}}>Full Stack Developer (MERN)</p>
                         <ul className="nav nav-pills bottom-bar nav-justified" id="navigation">
                             <li className="nav-item">
-                            <a className="nav-link active" href="/">Home</a>
+                            <NavLink to={'/'} className="nav-link active" >Home</NavLink>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link active" href="/About">About</a>
+                            <NavLink to={'/About'} className="nav-link active" >About</NavLink>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link active" href="/Contact">Contact</a>
+                            <NavLink to={'/Contact'} className="nav-link active" >Contact</NavLink>
                             </li>
                         </ul>
                     </div> 

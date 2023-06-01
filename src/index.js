@@ -14,7 +14,7 @@ import About from './About';
 
 function Routingpage () {
     return(
-      <Router basename='/'>
+      <Router basename='/Portfolio'>
       <Routes>
       <Route exact path = "/" element = {<Home/>}></Route>
       <Route path = "/Contact" element = {<Contact/>}></Route>

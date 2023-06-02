@@ -1,7 +1,7 @@
 import React from "react";
 import {FaTwitter,FaInstagram,FaGithub,FaYoutube} from "react-icons/fa";
 import "./style.css";
-import { NavLink } from "react-router-dom";
+import Navbar from "./Navbar";
 
 // import  ReactDOM  from "react-dom/client";
 // import { render } from '@testing-library/react';
@@ -25,17 +25,7 @@ class Contact extends React.Component{
             <div className="bg-c1 text-center" id = "heading">
                         <h1 className="myname">Raghavan</h1>
                         <p className="myoccpation">Full Stack Developer</p>
-                        <ul className="nav nav-pills bottom-bar nav-justified" id="navigation">
-                            <li className="nav-item">
-                            <NavLink to={'/'} className="nav-link active" >Home</NavLink>
-                            </li>
-                            <li className="nav-item">
-                            <NavLink to={'/About'} className="nav-link active" >About</NavLink>
-                            </li>
-                            <li className="nav-item">
-                            <NavLink to={'/Contact'} className="nav-link active" >Contact</NavLink>
-                            </li>
-                        </ul>
+                        <Navbar/>
                     </div>
             
             <div className="container c-2" id="mailme">

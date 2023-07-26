@@ -1,6 +1,6 @@
 import React from "react";
 import './style.css';
-import {} from 'react-bootstrap';
+// import {} from 'react-bootstrap';
 import {FaInstagram,FaYoutube,FaTwitter,FaGithub} from "react-icons/fa";
 import logo from './img/Ragav_01.JPG';
 import Navbar from "./Navbar";
@@ -38,16 +38,16 @@ class About extends React.Component{
                     <br/>
                     <div className="container" style={{color : 'white'}}>
                         <div className="row">
-                            <div className="col-sm-12 cn-1">
+                            <div className="col-sm-12 cn-1 ">
                                 <h2 className="myskills">
-                                    Technology required
+                                    Technology Known
                                 </h2>
-                                <br/>
-                                Frontend languages - Html, Css, Javascript, React
-                                <br/>
-                                Backend languages - Node js , Java, Python
-                                <br/>
-                                Database - Mysql, MongoDB
+                                <ul className="list-unstyled ">
+                                    <li>Frontend languages - Html, Css, Javascript, React</li>
+                                    <li>Backend languages - Node js , Java, Python</li>
+                                    <li>Database - Mysql, MongoDB</li>
+                                </ul>
+                                
                             </div>
                             
                             <div className="col-sm-12">
@@ -64,21 +64,27 @@ class About extends React.Component{
                                         </tr>
                                     </thead>
                                     <tbody>
+                                         <tr>
+                                            <td>Frontend Project</td>
+                                            <td>HTML CSS JS Bootstrap</td>
+                                            <td><a href="https://grmstudios.in" target="_blank" rel="noreferrer">GRM studios Project</a></td>
+                                        </tr>
                                         <tr>
                                             <td>Full Stack web development</td>
-                                            <td>React js , Node js , Jsp</td>
-                                            <td><a href="https://impakto185.000webhostapp.com/" target="_blank" rel="noreferrer">Impakto18.5</a></td>
+                                            <td>HTML , CSS , Js</td>
+                                            <td><a href="https://impakto185.000webhostapp.com/" target="_blank" rel="noreferrer">Impakto18.5 clg sympo</a></td>
                                         </tr>
                                         <tr>
                                             <td>Frontend development</td>
-                                            <td>Html , css , js</td>
-                                            <td><a href="https://github.com/Ragavan01/Projects1/" target="_blank" rel="noreferrer">My web in Responsive</a></td>
+                                            <td>HTML , CSS , Js</td>
+                                            <td><a href="https://raghavan05.github.io/Techonics/" target="_blank" rel="noreferrer">My department sympo</a></td>
                                         </tr>
                                         <tr>
                                             <td>Full Stack web development</td>
-                                            <td>React js , Node js , Jsp </td>
-                                            <td><a href="https://github.com/Ragavan01/Projects/" target="_blank" rel="noreferrer">Sympo Project</a></td>
+                                            <td>React js</td>
+                                            <td><a href="https://raghavan05.github.io/Portfolio/" target="_blank" rel="noreferrer">Portfolio</a></td>
                                         </tr>
+                                        
                                     </tbody>
                                 </table>
                             </div>
@@ -101,19 +107,19 @@ class About extends React.Component{
                                             <td>B.tech CSBS</td>
                                             <td>Sethu institute of technology</td>
                                             <td>2024</td>
-                                            <td>100</td>
+                                            <td>8.699</td>
                                         </tr>
                                         <tr>
-                                            <td>12th</td>
+                                            <td>HSC</td>
                                             <td>TVK Corp hr sec school</td>
                                             <td>2020</td>
-                                            <td>100</td>
+                                            <td>50.67%</td>
                                         </tr>
                                         <tr>
-                                            <td>10th</td>
+                                            <td>SSLC</td>
                                             <td>TVK Corp hr sec school</td>
                                             <td>2018</td>
-                                            <td>100</td>
+                                            <td>72.4%</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -141,7 +147,7 @@ class About extends React.Component{
                                </a>
                             </li>
                             <li className="nav-item">
-                               <a href="https://github.com/Ragavan01" className="nav-link"
+                               <a href="https://github.com/Raghavan05" className="nav-link"
                                style={{color : 'white'}} target="_blank" rel="noreferrer">
                                    <FaGithub style={{fontSize:"1.5rem"}}/>
                                </a>

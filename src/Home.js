@@ -5,6 +5,7 @@ import {} from 'react-bootstrap';
 import {FaInstagram,FaYoutube,FaTwitter,FaGithub} from "react-icons/fa";
 import logo from './img/Ragav_01.JPG';
 import Navbar from "./Navbar";
+import ApiExample from "./api_example";
 // import  ReactDOM  from "react-dom/client";
 
 class Home extends React.Component{
@@ -58,22 +59,16 @@ class Home extends React.Component{
                             </div>
                             <div className="col-sm-6">
                                 <h2 className="myskills">
-                                    Internship and certification
+                                    Profiles in social media
                                 </h2>
                                 <br/>
                                 <ul className="skills">
                                     <li>
-                                        I done Full Stack development.
+                                        <a href="https://www.linkedin.com/in/raghavan-r1" target="_blank" rel="noreferrer">Linkedin profile</a>
                                     </li>
                                     <li>
-                                        I done in UI/UX Design.
+                                        <a href="https://github.com/Raghavan05/" target="_blank" rel="noreferrer">Github profile</a>
                                     </li>
-                                    <li>
-                                        I done Digital Marketing in <a href="https://www.edureka.co/">Edureka</a>
-                                    </li>
-                                    {/* <li>
-                                        I done in Product Management.
-                                    </li> */}
                                 </ul>
                             </div>
                             <div className="col-sm-12">
@@ -90,21 +85,27 @@ class Home extends React.Component{
                                         </tr>
                                     </thead>
                                     <tbody>
+                                         <tr>
+                                            <td>Frontend Project</td>
+                                            <td>HTML CSS JS Bootstrap</td>
+                                            <td><a href="https://grmstudios.in" target="_blank" rel="noreferrer">GRM studios Project</a></td>
+                                        </tr>
                                         <tr>
                                             <td>Full Stack web development</td>
-                                            <td>React js, Node js</td>
-                                            <td><a href="https://impakto185.000webhostapp.com/" target="_blank" rel="noreferrer">Impakto18.5</a></td>
+                                            <td>HTML , CSS , Js</td>
+                                            <td><a href="https://impakto185.000webhostapp.com/" target="_blank" rel="noreferrer">Impakto18.5 clg sympo</a></td>
                                         </tr>
                                         <tr>
                                             <td>Frontend development</td>
                                             <td>HTML , CSS , Js</td>
-                                            <td><a href="https://github.com/Ragavan01/Projects1/" target="_blank" rel="noreferrer">My web in Responsive</a></td>
+                                            <td><a href="https://raghavan05.github.io/Techonics/" target="_blank" rel="noreferrer">My department sympo</a></td>
                                         </tr>
                                         <tr>
                                             <td>Full Stack web development</td>
-                                            <td>React js, Node js</td>
-                                            <td><a href="https://github.com/Ragavan01/Projects/" target="_blank" rel="noreferrer">Sympo Project</a></td>
+                                            <td>React js</td>
+                                            <td><a href="https://raghavan05.github.io/Portfolio/" target="_blank" rel="noreferrer">Portfolio</a></td>
                                         </tr>
+                                        
                                     </tbody>
                                 </table>
                             </div>
@@ -127,7 +128,7 @@ class Home extends React.Component{
                                             <td>B.tech CSBS</td>
                                             <td>Sethu institute of technology</td>
                                             <td>2024</td>
-                                            <td>98%</td>
+                                            <td>8.699</td>
                                         </tr>
                                         <tr>
                                             <td>HSC</td>
@@ -146,6 +147,9 @@ class Home extends React.Component{
                             </div>
                         </div>
                     </div>
+
+                    <ApiExample/>
+                    
                     <div className="bg-c1 text-center" id="footer">
                         <ul className="nav justify-content-center">
                             <li className="nav-item">
@@ -167,7 +171,7 @@ class Home extends React.Component{
                                </a>
                             </li>
                             <li className="nav-item">
-                               <a href="https://github.com/Ragavan01" className="nav-link"
+                               <a href="https://github.com/Raghavan05" className="nav-link"
                                style={{color : 'white'}} target="_blank" rel="noreferrer">
                                    <FaGithub style={{fontSize:"1.5rem"}}/>
                                </a>

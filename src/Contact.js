@@ -89,7 +89,7 @@ class Contact extends React.Component{
                                </a>
                             </li>
                             <li className="nav-item">
-                               <a href="https://github.com/Ragavan01" className="nav-link"
+                               <a href="https://github.com/Raghavan05" className="nav-link"
                                style={{color : 'white'}} target="_blank" rel="noreferrer">
                                    <FaGithub style={{fontSize:"1.5rem"}}/>
                                </a>
